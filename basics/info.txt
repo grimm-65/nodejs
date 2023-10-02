@@ -1,0 +1,15 @@
+Javascript engines converts js into machine/binary 
+examples of js engines
+	V8 by Google for Chrome(most used)
+	SpiderMonkey by Mozila for Firexof
+	JavascriptCore by Apple for Safari
+	Chakra by Microsoft for Microsoft Edge
+	Hemes engine by Facebook for Android apps
+	
+Breakdown of V8 engine 
+	we write code
+	it goes to V8
+	V8 changes it to c++
+	C++ changed into assembly
+	Asssembly changed into machine language
+
