@@ -1,0 +1,5 @@
+app.get is used to set up handler for a HTTP  GET request
+	1st arg is the path to set handler for
+	2nd arg is the function to run when path is visited
+
+res.send can send back HTML or JSON response

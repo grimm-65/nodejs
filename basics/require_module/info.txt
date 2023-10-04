@@ -1,0 +1,13 @@
+We use require to call some other file and we pass different things from that file using module
+
+	We have 2 files app.js and stock.js
+	create a function in stock.js and then make it available to other ... using
+	(Will make this () available to everybody who requires it)
+
+	module.exports = stock;
+
+	in app.js simply
+	
+	const stock = require('./stock');
+
+now we can call function in stock.js from app.js

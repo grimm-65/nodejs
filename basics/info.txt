@@ -13,3 +13,41 @@ Breakdown of V8 engine
 	C++ changed into assembly
 	Asssembly changed into machine language
 
+importing nodejs core modules
+require which is used to load in a module and get access to its content
+egs
+
+const fs = require('fs')
+
+importing youre own files
+
+const checkutils = require('./src/utils.js')
+checkutils()
+
+Exporting files
+
+const check = function(){
+	console.log('Doing some work...')
+	}
+
+mosule.exports = check
+
+
+var => can be re-declared and updated
+
+const => val wont be changed/updated
+
+let => can be updated but not redeclared
+
+
+Buffer => temp storage spot for chunk of data that can be transferd a small amount ata time
+
+Buffer is aglobal class
+
+eg 
+	const buf = new Buffer(5);
+	const buf = new Buffer([10,20,30,40,50]);
+	const buf = new Bufer('Hello world');
+
+
+Stream => objects that let you read data from the src or write data to dst in a acontinuous fashion
